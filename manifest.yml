@@ -1,0 +1,14 @@
+modules:
+  jira:issuePanel:
+    - key: hello-world-app-hello-world-panel
+      function: main
+      title: connor-says-hello
+      icon: https://developer.atlassian.com/platform/forge/images/icons/issue-panel-icon.svg
+  function:
+    - key: main
+      handler: index.run
+app:
+  id: ari:cloud:ecosystem::app/ecaf69ab-402f-4fed-a476-fb09cbfdb9bb
+permissions:
+  scopes:
+    - read:jira-work
